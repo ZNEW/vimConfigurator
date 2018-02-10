@@ -495,7 +495,7 @@ function proposeFontInstallation
 function installColors
 {
 
-  curl -fLo ~/.vim/colors/wombat256mod.vim --create-dirs \
+  curl -fLo ${vimFolderPath}/colors/wombat256mod.vim --create-dirs \
     https://raw.githubusercontent.com/vim-scripts/wombat256.vim/master/colors/wombat256mod.vim
 
   return 0
